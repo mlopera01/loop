@@ -3,8 +3,8 @@
 valor=0
 numero=int(input("Enter your number\n"))
 a=int(numero)
-i=1
-while i <= a+1:
+i=2
+while i <= a/2:
  if(a % i==0):
   #para saber cuántas veces ese número fue divisible
   #por cada uno de los numeros que evalua  
